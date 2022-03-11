@@ -6,7 +6,7 @@ export default function ServiceCard({img, name, desc}) {
     <SkewedCard>
       <img
         className="rounded-t-md servicesImageHeight bg-blue-500"
-        alt="image"
+        alt={name}
         src={img}
       />
       <div className="px-10 pb-6">

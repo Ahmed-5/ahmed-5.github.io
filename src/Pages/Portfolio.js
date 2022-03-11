@@ -5,7 +5,7 @@ import Works from "../Components/Works";
 
 export default function Portfolio() {
   return (
-    <div className="antialiased relative text-gray-600">
+    <div className="antialiased relative pb-5 text-gray-600">
       <div className="absolute w-full min-h-screen">
         <div
           className="absolute z-0 top-0 w-full h-1/2 bg-cover bg-bottom pt-20 px-12"
@@ -13,7 +13,7 @@ export default function Portfolio() {
             backgroundImage: `url("https://raw.githubusercontent.com/Ahmed-5/fractals/main/images/sin_julia.png")`,
           }}
         ></div>
-        <div className="absolute z-20 bottom-10 right-0 left-0 inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
+        <div className="absolute z-20 bottom-0 right-0 left-0 inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
           <a href="#services" className="text-cyan-600">
             Services
           </a>
@@ -39,16 +39,13 @@ export default function Portfolio() {
               <p className="text-lg leading-relaxed">
                 Amet elit exercitation deserunt incididunt consequat do duis
                 fugiat qui commodo eu Lorem cillum aliquip. Est id occaecat
-                occaecat duis esse eiusmod dolor consequat dolor ea et cillum ut
-                quis. Non pariatur reprehenderit officia tempor tempor. Ullamco
-                sit qui dolor cupidatat magna id. Incididunt ea laborum in nulla
-                aliqua esse magna.
+                occaecat duis esse eiusmod dolor.
               </p>
             </div>
             <img
               src="https://avatars.githubusercontent.com/u/39542343?s=400&u=c094ae3133140f0f7e6cdd8d02f8670811c94535&v=4"
-              className="w-80 rounded-full flex-shrink-0 border-6 border-white shadow-lg"
-              alt="image"
+              className="w-40 mx-auto sm:w-80 rounded-full flex-shrink-0 border-6 border-white shadow-lg"
+              alt="Ahmed Alhassan"
             />
           </div>
         </div>

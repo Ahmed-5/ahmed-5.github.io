@@ -10,7 +10,7 @@ export default function Works() {
     <Section name={name} heading={heading} id={id}>
       <div className="grid mt-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
         {works.map((work, ind) =>
-          ind % 4 == 0 || ind % 4 == 3 ? (
+          ind % 4 === 0 || ind % 4 === 3 ? (
             <WorkCard2Col
               name={work.name}
               desc={work.desc}
