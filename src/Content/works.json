@@ -1,0 +1,31 @@
+{
+  "id": "works",
+  "name": "Work",
+  "heading": "Some previous projects I was invovled in.",
+  "works": [
+    {
+      "name": "Fractals",
+      "desc": "Rendering some of my favorite fractals in jupyter notebooks",
+      "img": "https://raw.githubusercontent.com/Ahmed-5/fractals/main/images/triple_dragon.png",
+      "link": "https://github.com/Ahmed-5/fractals"
+    },
+    {
+      "name": "Pygame Chess Engine",
+      "desc": "A Chess Engine using pygame",
+      "img": "https://raw.githubusercontent.com/Ahmed-5/chess-engine-with-ui/main/demo.png",
+      "link": "https://github.com/Ahmed-5/chess-engine-with-ui"
+    },
+    {
+      "name": "Tesla Clone Landing Page",
+      "desc": "A landing page design for tesla",
+      "img": "https://raw.githubusercontent.com/Ahmed-5/Tesla/master/page.jpg",
+      "link": "https://github.com/Ahmed-5/Tesla"
+    },
+    {
+      "name": "Apple Clone Website",
+      "desc": "A Clone For previous version of Apple's page",
+      "img": "https://raw.githubusercontent.com/Ahmed-5/Apple-UI/master/page.jpg",
+      "link": "https://github.com/Ahmed-5/Apple-UI"
+    }
+  ]
+}

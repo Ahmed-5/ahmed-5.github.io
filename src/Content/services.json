@@ -1,0 +1,22 @@
+{
+  "id": "services",
+  "name": "Services",
+  "heading": "What I Offer",
+  "services": [
+    {
+      "name": "Responsive Websites",
+      "desc": "Building a modern responsive websites that looks pretty in every platform",
+      "img": "https://www.rouge-media.com/wp-content/uploads/2019/05/web-app-illustration-1.png"
+    },
+    {
+      "name": "Web Apps",
+      "desc": "Fast and easy to use web apps.",
+      "img": "https://wichitawebdev.com/lmg-cms/wp-content/uploads/2018/06/pwa-reliable.png"
+    },
+    {
+      "name": "Mobile Apps",
+      "desc": "Light-wieght apps that focuses on UI/UX.",
+      "img": "https://www.softxpert.com/wp-content/uploads/2018/03/Mobile-app-for-your-business.png"
+    }
+  ]
+}
