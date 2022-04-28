@@ -25,6 +25,14 @@ code {
   --tw-gradient-to: #309e76;
 }
 
+.bg-primary {
+  background-color: #1d99ac;
+}
+
+.bg-secondary {
+  background-color: #309e76;
+}
+
 .servicesImageHeight {
   height: 220px;
 }

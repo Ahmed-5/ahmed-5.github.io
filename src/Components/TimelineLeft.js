@@ -2,17 +2,19 @@ import React from "react";
 
 export default function TimelineLeft({ title, time, content, index }) {
   return (
-    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-white font-semibold text-lg">{index}</h1>
-      </div>
-      <div class="order-1 bg-gradient-to-r from-primary to-secondary rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-white text-xl">{title}</h3>
-        <h4 class="mb-3 font-bold text-white text-xl">{time}</h4>
-        <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+    <div class="flex flex-row-reverse md:contents">
+      <div class="bg-primary col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+        <h3 class="font-bold text-lg mb-1">{title}</h3>
+        <h4 class="font-semibold text-lg mb-1">{time}</h4>
+        <p class="leading-tight text-justify">
           {content}
         </p>
+      </div>
+      <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+        <div class="h-full w-6 flex items-center justify-center">
+          <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+        </div>
+        <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">{index}</div>
       </div>
     </div>
   );
