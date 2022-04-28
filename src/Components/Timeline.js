@@ -17,14 +17,12 @@ export default function Timeline() {
                 title={cell.title}
                 time={cell.time}
                 content={cell.content}
-                index={ind+1}
               />
             ) : (
               <TimelineRight
                 title={cell.title}
                 time={cell.time}
                 content={cell.content}
-                index={ind+1}
               />
             )
           )}
