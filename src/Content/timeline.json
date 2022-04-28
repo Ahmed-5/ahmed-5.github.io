@@ -1,0 +1,37 @@
+{
+  "id": "timeline",
+  "name": "Timeline",
+  "heading": "Some of the achievements and employments I had",
+  "timeline": [
+    {
+      "title": "Started Job at Twzeef",
+      "time": "2018/10",
+      "content": "I started my first full-time job at Twzeef as a Full stack developer with react as front-end and nodejs express as back-end"
+    },
+    {
+      "title": "ICCCEEE19 publication",
+      "time": "2019/09",
+      "content": "A publication that I made in ICCCEEE19 (International Conference on Computer, Control, Electrical and Electronics Engineering) of the name 'Build and conquer: Solving N queens problem with iterative compression'"
+    },
+    {
+      "title": "ICCCEEE19 Best Paper in AI Track",
+      "time": "2019/09",
+      "content": "The publication of the name 'Build and conquer: Solving N queens problem with iterative compression' won the best paper at the AI track in ICCCEEE19 (International Conference on Computer, Control, Electrical and Electronics Engineering)"
+    },
+    {
+      "title": "ICCCEEE20 publication",
+      "time": "2021/02",
+      "content": "A publication that I made in ICCCEEE20 (International Conference on Computer, Control, Electrical and Electronics Engineering) of the name 'Adjusting Street Plans Using Deep Reinforcement Learning'"
+    },
+    {
+      "title": "Started Job at Exit:funds",
+      "time": "2021/05",
+      "content": "I started my first part-time job at Exit:funds as a Full stack mobile developer with flutter in application UI and firebase as back-end"
+    },
+    {
+      "title": "Started Job at Engima AI",
+      "time": "2021/01",
+      "content": "I started my full-time job at Engima AI as a Full stack developer with react as front-end and nodejs express as back-end"
+    }
+  ]
+}

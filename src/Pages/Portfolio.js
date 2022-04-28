@@ -1,6 +1,7 @@
 import React from "react";
 import ContactUs from "../Components/ContactUs";
 import Services from "../Components/Services";
+import Timeline from "../Components/Timeline";
 import Works from "../Components/Works";
 
 export default function Portfolio() {
@@ -52,6 +53,7 @@ export default function Portfolio() {
       </div>
       <Services />
       <Works />
+      <Timeline />
       <ContactUs />
     </div>
   );
