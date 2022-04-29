@@ -13,13 +13,13 @@ export default function Stack() {
             {stack.imgs.map((img, ind) =>
               ind % 2 === 0 ? (
                 <img
-                  className="object-contain shadow-2xl w-40 h-40 bg-white rounded-full animate-float m-8"
+                  className="object-contain shadow-2xl p-1 w-40 h-40 bg-white rounded-full animate-float m-8"
                   src={img}
                   alt={ind}
                 />
               ) : (
                 <img
-                  className="object-contain shadow-2xl w-40 h-40 bg-white rounded-full animate-refloat m-8"
+                  className="object-contain shadow-2xl p-1 w-40 h-40 bg-white rounded-full animate-refloat m-8"
                   src={img}
                   alt={ind}
                 />

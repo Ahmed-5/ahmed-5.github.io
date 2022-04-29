@@ -7,7 +7,7 @@ import Works from "../Components/Works";
 
 export default function Portfolio() {
   return (
-    <div className="antialiased relative pb-5 text-gray-600">
+    <div className="scroll-smooth antialiased relative pb-5 text-gray-600">
       <div className="absolute w-full min-h-screen">
         <div
           className="absolute z-0 top-0 w-full h-1/2 bg-cover bg-bottom pt-20 px-12"
