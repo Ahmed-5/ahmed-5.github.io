@@ -4,8 +4,11 @@ import Services from "../Components/Services";
 import Stack from "../Components/Stack";
 import Timeline from "../Components/Timeline";
 import Works from "../Components/Works";
+import introData from "../Content/introCard.json";
+import Typical from "react-typical";
 
 export default function Portfolio() {
+  const { name, img, desc, typical } = introData;
   return (
     <div className="scroll-smooth antialiased relative pb-5 text-gray-600">
       <div className="absolute w-full min-h-screen">
@@ -33,21 +36,25 @@ export default function Portfolio() {
           <div className="relative z-20 bg-white md:flex justify-between p-12 shadow-lg rounded-lg w-full max-w-4xl">
             <div className="sm:flex flex-col justify-between space-y-6 py-6 md:pr-10">
               <div>
-                <h2 className="text-lg">Hello I Am</h2>
+                <h2 className="text-lg">Hello I am</h2>
                 <h1 className="pt-1 text-5xl text-bold text-gray-600">
-                  Ahmed Alhassan
+                  {name}
                 </h1>
+                <h2 className="text-lg">
+                  A{" "}
+                  <Typical
+                    className="inline-block"
+                    steps={typical}
+                    loop={Infinity}
+                  />
+                </h2>
               </div>
-              <p className="text-lg leading-relaxed">
-                Amet elit exercitation deserunt incididunt consequat do duis
-                fugiat qui commodo eu Lorem cillum aliquip. Est id occaecat
-                occaecat duis esse eiusmod dolor.
-              </p>
+              <p className="text-lg leading-relaxed">{desc}</p>
             </div>
             <img
-              src="https://avatars.githubusercontent.com/u/39542343?s=400&u=c094ae3133140f0f7e6cdd8d02f8670811c94535&v=4"
+              src={img}
               className="w-40 mx-auto sm:w-80 rounded-full flex-shrink-0 border-6 border-white shadow-lg"
-              alt="Ahmed Alhassan"
+              alt={name}
             />
           </div>
         </div>
