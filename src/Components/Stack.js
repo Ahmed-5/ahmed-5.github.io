@@ -14,14 +14,14 @@ export default function Stack() {
               ind % 2 === 0 ? (
                 <img
                   className="object-contain shadow-2xl p-1 w-24 h-24 bg-white rounded-full animate-float m-5"
-                  src={img}
-                  alt={ind}
+                  src={img.img}
+                  alt={img.alt}
                 />
               ) : (
                 <img
                   className="object-contain shadow-2xl p-1 w-24 h-24 bg-white rounded-full animate-refloat m-5"
-                  src={img}
-                  alt={ind}
+                  src={img.img}
+                  alt={img.alt}
                 />
               )
             )}
