@@ -37,7 +37,7 @@ export default function Portfolio() {
             <div className="sm:flex flex-col justify-between space-y-6 py-6 md:pr-10">
               <div>
                 <h2 className="text-lg">Hello I am</h2>
-                <h1 className="pt-1 text-5xl text-bold text-gray-600">
+                <h1 className="pt-1 text-3xl md:text-5xl text-bold text-gray-600">
                   {name}
                 </h1>
                 <h2 className="text-lg">
