@@ -36,7 +36,7 @@ export default function Portfolio() {
           <div className="relative z-20 bg-white md:flex justify-between p-12 shadow-lg rounded-lg w-full max-w-4xl">
             <div className="sm:flex flex-col justify-between space-y-6 py-6 md:pr-10">
               <div>
-                <h2 className="text-lg">Hello I am</h2>
+                <h2 className="text-lg">Hello <span className="inline-block animate-waving-hand">👋🏻</span>, I am</h2>
                 <h1 className="pt-1 text-3xl md:text-5xl text-bold text-gray-600">
                   {name}
                 </h1>
