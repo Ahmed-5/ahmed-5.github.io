@@ -48,7 +48,7 @@ export default function ContactUs() {
           <p className="pt-2 text-xl">Get In Touch</p>
         </div>
         <div className="mt-16 relative max-w-4xl mx-auto">
-          <div className="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform skew-y-6 skew-y-0 -rotate-6 rounded-lg"></div>
+          <div className="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform skew-y-0 -rotate-6 rounded-lg"></div>
           <div className="relative z-20 bg-white rounded-md shadow-md p-12">
             <form ref={form}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">

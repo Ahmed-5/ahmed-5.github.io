@@ -12,9 +12,9 @@ export default function TimelineLeft({ title, time, content, index }) {
       </div>
       <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
         <div class="h-full w-6 flex items-center justify-center">
-          <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          <div class="h-full w-1 bg-gradient-to-b from-primary to-secondary pointer-events-none"></div>
         </div>
-        <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow text-center">{index}</div>
+        <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-secondary shadow text-center">{index}</div>
       </div>
     </div>
   );
