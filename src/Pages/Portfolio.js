@@ -30,7 +30,7 @@ export default function Portfolio() {
           </a>
         </div>
       </div>
-      <div className="relative z-10 flex min-h-screen h-auto justify-center items-center">
+      <div className="relative z-10 flex min-h-screen h-auto justify-center items-center animate-fade-in-down">
         <div className="relative max-w-4xl">
           <div className="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform skew-y-0 -rotate-6 rounded-lg"></div>
           <div className="relative z-20 bg-white md:flex justify-between p-12 shadow-lg rounded-lg w-full max-w-4xl">
@@ -49,7 +49,7 @@ export default function Portfolio() {
                   />
                 </h2>
               </div>
-              <p className="text-lg leading-relaxed">{desc}</p>
+              <p className="text-lg leading-relaxed animate-fade-in-left">{desc}</p>
             </div>
             <img
               src={img}
