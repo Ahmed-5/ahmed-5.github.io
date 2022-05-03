@@ -13,9 +13,9 @@ export default function Portfolio() {
     <div className="scroll-smooth antialiased relative pb-5 text-gray-600">
       <div className="absolute w-full min-h-screen">
         <div
-          className="absolute z-0 top-0 w-full h-1/2 bg-cover bg-bottom pt-20 px-12"
+          className="absolute z-0 top-0 w-full h-1/2 bg-repeat bg-bottom pt-20 px-12"
           style={{
-            backgroundImage: `url("https://raw.githubusercontent.com/Ahmed-5/fractals/main/images/sin_julia.png")`,
+            backgroundImage: `url("https://raw.githubusercontent.com/Ahmed-5/fractals/main/sample_images/sin_julia.jpeg")`,
           }}
         ></div>
         <div className="absolute z-20 bottom-0 right-0 left-0 inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
