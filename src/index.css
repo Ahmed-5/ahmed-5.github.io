@@ -5,6 +5,11 @@ html {
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: #4479d9;
+  --secondary-color: #3a8841;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,20 +25,20 @@ code {
 }
 
 .from-primary {
-  --tw-gradient-from: #1d99ac;
+  --tw-gradient-from: var(--primary-color);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(34, 211, 238, 0));
 }
 
 .to-secondary {
-  --tw-gradient-to: #309e76;
+  --tw-gradient-to: var(--secondary-color);
 }
 
 .bg-primary {
-  background-color: #1d99ac;
+  background-color: var(--primary-color);
 }
 
 .bg-secondary {
-  background-color: #309e76;
+  background-color: var(--secondary-color);
 }
 
 .servicesImageHeight {
